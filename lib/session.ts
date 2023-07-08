@@ -32,7 +32,7 @@ export const authOptions: NextAuthOptions = {
         // if they don't exist, create them
 
         return true;
-      } catch (error) {
+      } catch (error: any) {
         console.log(error);
         return false;
       }

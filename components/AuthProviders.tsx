@@ -28,8 +28,8 @@ const AuthProviders = () => {
   if (providers) {
     return (
       <div>
-        {Object.values(providers).map((provider: Provider) => (
-          <button key={provider.id}>{provider.id}</button>
+        {Object.values(providers).map((provider: Provider, i) => (
+          <button key={i}>{provider.id}</button>
         ))}
       </div>
     );
