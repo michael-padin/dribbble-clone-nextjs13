@@ -12,10 +12,10 @@ export const authOptions: NextAuthOptions = {
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }),
   ],
-  // jwt: {
-  //   encode: ({ secret, token }) => {},
-  //   decode: async ({ secret, token }) => {},
-  // },
+  /* jwt: {
+    encode: ({ secret, token }) => {},
+    decode: async ({ secret, token }) => {},
+  }, */
 
   theme: {
     colorScheme: 'light',
